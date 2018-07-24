@@ -2,7 +2,6 @@ require 'cucumber'
 require 'selenium-webdriver'
 require 'page-object'
 require 'rspec/expectations'
-require 'report_builder'
 #require 'page-object/page_factory'
 
 require File.join(File.dirname(__FILE__), 'helpers', 'webdriver_helper.rb')
