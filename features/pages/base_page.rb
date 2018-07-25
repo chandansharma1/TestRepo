@@ -1,6 +1,9 @@
 class BasePage
 
   include WebDriverHelper
-  include PageObject
+
+  def initialize(browser)
+    @browser = browser
+  end
 
 end
